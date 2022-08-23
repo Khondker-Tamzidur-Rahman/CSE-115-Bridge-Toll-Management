@@ -3,8 +3,8 @@
 
 [comment]: <> (# CSE-115-Bridge-Toll-Management)
 
-# Project name: 
-<h3> By 
+# Project name: Bridge Toll Management
+<h3> By Khondker Tamzidur Rahman
 </h3>
 
 <p>Project Description:</p>

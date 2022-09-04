@@ -11,7 +11,7 @@
 
 
 Progress
-- [ done] Splash screen
+- [ ] Splash screen
 - [ ] Login
 - [ ] Menu driven program                              
 - [ ] Database

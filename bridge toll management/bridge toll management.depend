@@ -1,0 +1,21 @@
+# depslib dependency file v1.0
+1662406592 source:f:\cse 115 lab project\cse-115-bridge-toll-management\bridge toll management\main.c
+	<stdio.h>
+	<stdlib.h>
+	"splash.h"
+	"login.h"
+	"menu.h"
+	"info.h"
+
+1662377901 f:\cse 115 lab project\cse-115-bridge-toll-management\bridge toll management\splash.h
+	<time.h>
+
+1662380895 f:\cse 115 lab project\cse-115-bridge-toll-management\bridge toll management\login.h
+
+1662406975 f:\cse 115 lab project\cse-115-bridge-toll-management\bridge toll management\menu.h
+
+1662406514 f:\cse 115 lab project\cse-115-bridge-toll-management\bridge toll management\info.h
+	<time.h>
+
+1662404463 f:\cse 115 lab project\cse-115-bridge-toll-management\bridge toll management\functioncall.h
+

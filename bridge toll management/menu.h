@@ -18,18 +18,18 @@ printf("\t\t\t\t\t\t\t\t\t              (Department of ECE ,North South Universi
 
 printf ("\n\n\t\t\t\t\t\t\t\t\t\t\t IF YOU WANT TO EXIT THE PROGRAM PRESS 0\n") ; // press 0 for execute program
 printf("\t\t\t\t\t\t\t\t\t\t    ------------------------------------------------\n\n");
-printf("\t__SELECT CATEGORY__\n\n");
-printf("\t press (1) to add:  Bike \n");
-printf("\t press (2) to add:  CNG \n");
-printf("\t press (3) to add:  Private Car \n");     //printed the vehicals names
-printf("\t press (4) to add:  Taxi \n");
-printf("\t press (5) to add:  Pickup Van \n");
-printf("\t press (6) to add:  Truck \n");
-printf("\t press (7) to add:  Loader Truck \n");
-printf("\t press (8) to add:  Bus \n");
-printf("\t press (9) to add:  Jeep \n");
-printf("\t press (10) to add: Microbus \n");
-printf("\t[ press (0) to exit the program ]\n");
+printf("\t______SELECT CATEGORY______\n\n");
+printf("\t press [1] to add toll for  :  Bike \n");
+printf("\t press [2] to add toll for  :  CNG \n");
+printf("\t press [3] to add toll for  :  Private Car \n");     //printed the vehicals names
+printf("\t press [4] to add toll for  :  Taxi \n");
+printf("\t press [5] to add toll for  :  Pickup Van \n");
+printf("\t press [6] to add toll for  :  Truck \n");
+printf("\t press [7] to add toll for  :  Loader Truck \n");
+printf("\t press [8] to add toll for  :  Bus \n");
+printf("\t press [9] to add toll for  :  Jeep \n");
+printf("\t press [10] to add toll for : Microbus \n");
+printf("\t press [0] to exit the program \n");
 
 
 //float type variables
@@ -72,76 +72,76 @@ switch (vehicles) {
 case 1:{
 bike = bike +1;
 total=total+Bike;
-printf("\n\t Bike selected, Toll Added %d tk \n\n",a[0]);
+printf("\n\t [Bike selected, Toll Added %d tk] \n\n",a[0]);
 }
 break;
 
 case 2: {
 cng=cng+1;
 total=total+CNG;
-printf ("\n\t CNG selected, Toll Added %d tk \n\n",a[1]) ;
+printf ("\n\t [CNG selected, Toll Added %d tk] \n\n",a[1]) ;
 }
 break;
 
 case 3: {
 private_car=private_car+1;
 total=total+Private_Car;
-printf("\n\t Private Car selected, Toll Added %d tk \n\n",a[2]) ;
+printf("\n\t [Private Car selected, Toll Added %d tk] \n\n",a[2]) ;
 }
 break;
 
 case 4: {
 taxi = taxi+1;
 total=total+Taxi;
-printf("\n\t Taxi selected, Toll Added %d tk \n\n",a[3]) ;
+printf("\n\t [Taxi selected, Toll Added %d tk] \n\n",a[3]) ;
 }
 break;
 
 case 5:{
 pickup_van=pickup_van+1;
 total=total + Pickup_Van;
-printf("\n\t Pickup Van selected, Toll Added %d tk \n\n", a[4]) ;
+printf("\n\t [Pickup Van selected, Toll Added %d tk] \n\n", a[4]) ;
 }
  break;
 
  case 6:{
 truck = truck +1;
 total=total+Truck;
-printf("\n\t Truck selected, Toll Added %d tk \n\n", a[5]);
+printf("\n\t [Truck selected, Toll Added %d tk] \n\n", a[5]);
 }
 break;
 
 case 7: {
 loader_truck=loader_truck+1;
 total=total+Loader_Truck;
-printf ("\n\t Loader Truck selected, Toll Added %d tk \n\n", a[6]) ;
+printf ("\n\t [Loader Truck selected, Toll Added %d tk]\n\n", a[6]) ;
 }
 break;
 
 case 8: {
 bus=bus+1;
 total=total+Bus;
-printf("\n\t Bus selected, Toll Added %d tk \n\n", a[7]) ;
+printf("\n\t [Bus selected, Toll Added %d tk] \n\n", a[7]) ;
 }
 break;
 
 case 9: {
 jeep = jeep+1;
 total=total+Jeep;
-printf("\n\t Jeep selected, Toll Added  %d tk \n\n ", a[8]) ;
+printf("\n\t [Jeep selected, Toll Added  %d tk] \n\n ", a[8]) ;
 }
 break;
 
 case 10:{
 microbus=microbus+1;
 total=total +Microbus;
-printf("\n\t  Microbus selected, Toll Added  %dtk \n\n", a[9]) ;
+printf("\n\t  [Microbus selected, Toll Added  %dtk] \n\n", a[9]) ;
 }
  break;
 
 
 //using default  if all the cases are false
-default: printf(" \n\t Not In The Vehicles List\n"); //using default  if all the cases are false
+default: printf(" \n\t [Not In The Vehicles List]\n"); //using default  if all the cases are false
 
 
 
@@ -150,35 +150,36 @@ default: printf(" \n\t Not In The Vehicles List\n"); //using default  if all the
 
 system("cls");
 
-printf("\n------------------------------------\n");
-printf ("Today's Toll Collection Reoprt :\n\n");
-printf("Number Of Passing Vehicles By Category\n\n");
-
-printf ("\tBike = %d\n", bike) ;
-printf("\tCNG = %d\n", cng);
-printf("\tPrivate Car = %d\n", private_car) ;
-printf(" \tTaxi = %d\n", taxi) ;
-printf("\tPickup Van = %d\n", pickup_van);
-printf ("\tTruck = %d\n", truck) ;
-printf("\tLoader Truck = %d\n", loader_truck);
-printf("\tBus = %d\n", bus) ;
-printf("\tJeep = %d\n", jeep) ;
-printf("\tMicrobus = %d\n", microbus);
-
-
-printf("\n------------------------------------\n");
+printf("\n\n\n\t\t\t\t\t\t\t\t\t\t--------------------------------------------\n");
+printf("\t\t\t\t\t\t\t\t\t\t|      Today's Toll Collection Reoprt :    |\n");
+printf("\t\t\t\t\t\t\t\t\t\t--------------------------------------------\n");
+printf("\t\t\t\t\t\t\t\t\t\t|                                          |\n");
+printf("\t\t\t\t\t\t\t\t\t\t|  Number Of Passing Vehicles By Category  |\n");
+printf("\t\t\t\t\t\t\t\t\t\t|                                          |\n");
+printf("\t\t\t\t\t\t\t\t\t\t|   Bike = %d                               |\n", bike) ;
+printf("\t\t\t\t\t\t\t\t\t\t|   CNG = %d                                |\n", cng);
+printf("\t\t\t\t\t\t\t\t\t\t|   Private Car = %d                        |\n", private_car) ;
+printf("\t\t\t\t\t\t\t\t\t\t|   Taxi = %d                               |\n", taxi) ;
+printf("\t\t\t\t\t\t\t\t\t\t|   Pickup Van = %d                         |\n", pickup_van);
+printf("\t\t\t\t\t\t\t\t\t\t|   Truck = %d                              |\n", truck) ;
+printf("\t\t\t\t\t\t\t\t\t\t|   Loader Truck = %d                       |\n", loader_truck);
+printf("\t\t\t\t\t\t\t\t\t\t|   Bus = %d                                |\n", bus) ;
+printf("\t\t\t\t\t\t\t\t\t\t|   Jeep = %d                               |\n", jeep) ;
+printf("\t\t\t\t\t\t\t\t\t\t|   Microbus = %d                           |\n", microbus);
+printf("\t\t\t\t\t\t\t\t\t\t|                                          |\n");
+printf("\t\t\t\t\t\t\t\t\t\t--------------------------------------------\n\n");
 
 
 //sum of all vehicles
 TotalVehicles=bike+cng+private_car+taxi+pickup_van+truck+loader_truck+bus+jeep+microbus;
 
 //display total vehicles
-printf("Today's Total Number of Passing Vehicles = %d\n\n", TotalVehicles);
-printf("Today's Total Toll Money Collected = %.2lf Tk\n\n\n", total);
+printf("\t\t\t\t\t\t\t\t\t\tToday's Total Number of Passing Vehicles = %d\n\n", TotalVehicles);
+printf("\t\t\t\t\t\t\t\t\t\tToday's Total Toll Money Collected = %.2lf Tk\n\n\n", total);
 
 
 
-printf("\n\t!!! Thanks For Using Toll Management Software, Hope You Have A Great Day !!!\n\n");
+printf("\n\t\t\t\t\t\t\t\t\t!!! THANKS FOR USING TOLL MANAGEMENT SOFTWARE, HOPE YOU HAVE A GREAT DAY !!!\n\n");
 
 
 

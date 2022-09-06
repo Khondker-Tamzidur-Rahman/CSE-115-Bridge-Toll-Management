@@ -5,7 +5,7 @@
 #include"menu.h"
 #include"info.h"
 int main(void)
-{ int a; //integer variable a
+{
   welcome_page(); //calling fucntion
   login();
   FunctionCall();
@@ -19,12 +19,13 @@ void FunctionCall(void)
 {
     int a;
 
-    printf("\n\n\n\t\t  \tWELCOME TO TOLL PLAZA\n");
-  printf("\t\t------------------------------------\n");
-  printf("\t\t1.Take Vehicles Toll\n");
-  printf("\t\t2.Toll Amount Information\n");
-  printf("\t\t3.Exit\n");
-  printf("\t\tChoose Option :");
+    printf("\n\n\n\n\n\t\t\t\t\t\t\t\t\t\t\t  \tWELCOME TO TOLL PLAZA\n");
+  printf("\t\t\t\t\t\t\t\t\t\t\t--------------------------------------\n");
+  printf("\t\t\t\t\t\t\t\t\t\t\t1.Start Taking Tolls\n");
+  printf("\t\t\t\t\t\t\t\t\t\t\t2.Toll Amount Information\n");
+  printf("\t\t\t\t\t\t\t\t\t\t\t3.Exit\n");
+  printf("\t\t\t\t\t\t\t\t\t\t\t--------------------------------------\n");
+  printf("\t\t\t\t\t\t\t\t\t\t\tChoose Any Option :");
   scanf("%d",&a);
   if (a==1){
     system("cls");
@@ -38,7 +39,7 @@ void FunctionCall(void)
     return 0;
    }
     else{
-        printf("\n\n\t\t\tInvalid Option ,Please Try Again\n");
+        printf("\n\n\t\t\t\t\t\t\t\t\t\tInvalid Option ,Please Try Again\n");
         FunctionCall();
     }
 return 0;

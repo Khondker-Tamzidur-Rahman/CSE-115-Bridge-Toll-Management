@@ -11,19 +11,19 @@
 
 
 Progress
-- [ ] Splash screen
-- [ ] Login
-- [ ] Menu driven program                              
-- [ ] Database
+- [X] Splash screen
+- [X] Login
+- [X] Menu driven program                              
+- [X] Database
 
 Topics that need to be covered:
-- [ ] Function
-- [ ] Condition
-- [ ] Loop
-- [ ] Nested loop
+- [X] Function
+- [X] Condition
+- [X] Loop
+- [X] Nested loop
 - [ ] Pointer
-- [ ] Array
-- [ ] String
+- [X] Array
+- [X] String
 - [ ] Recursion
 - [ ] Structure
 - [ ] File

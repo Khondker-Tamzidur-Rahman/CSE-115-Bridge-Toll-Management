@@ -10,7 +10,7 @@ void welcome_page(void)
 
 
 
- printf("\t\t\t\t                                 :..@@#  :-                                                              ::  #@@:.:                                  \n");
+ printf("\n\n\n\n\n\t\t\t\t                                 :..@@#  :-                                                              ::  #@@:.:                                  \n");
  printf("\t\t\t\t                                .- .@@#  : -                                                            :.:  #@@: -.                                 \n");
  printf("\t\t\t\t                                =  .@@#  : .-                                                          -: :  #@@:  =                                 \n");
  printf("\t\t\t\t                               -:  .@@#  :  :-                                                        ::  :  #@@:  :-                                \n");
@@ -53,6 +53,7 @@ printf(" \t\t\t    #    #    # #      #         #     # ###### #  # # ###### #  
 printf(" \t\t\t    #    #    # #      #         #     # #    # #   ## #    # #    # #      #    # #      #   ##   #      #     # #    # #        #   ##  ## #    # #   #  #      \n");
 printf(" \t\t\t    #     ####  ###### ######    #     # #    # #    # #    #  ####  ###### #    # ###### #    #   #       #####   ####  #        #   #    # #    # #    # ###### \n");
 printf("\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t                                                     Loading ....!!!");
+
 sleep(5);
 system("cls");
 }

@@ -11,9 +11,9 @@ void login(void)
 {
 
     printf("\n\n");
-    printf("\n \t\t\t\t\t ||======================================================||| LOGIN |||==========================================================||\n  ");
-    printf(" \t\t\t\t\t ||                                                                                                                             ||");
-    printf("\n \t\t\t\t\t ||=============================================================================================================================||\n");
+    printf("\n \t\t\t\t\t||=====================================================|||*** LOGIN ***|||==========================================================||\n  ");
+    printf(" \t\t\t\t\t||                                                                                                                                  ||");
+    printf("\n \t\t\t\t\t||==================================================================================================================================||\n");
     printf(" \n\n \t\t\t\t\t\t\t\t\t                   ENTER YOUR USERNAME = ");
 	scanf("%s", &username);
 	printf(" \n\n \t\t\t\t\t\t\t\t\t                   ENTER YOUR PASSWORD = ");
@@ -32,6 +32,7 @@ void login(void)
 		if(strcmp(username,"Tamzid")==0 && strcmp(password,"1234")==0) // Username Tamzid and Password 1234
 	{
 	printf("  \n\n\n \t\t\t\t\t\t\t\t\t\t\t     [YOUR LOGIN IS SUCCESSFUL!!!]");
+
 	printf("\n\n\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t Press any key to continue...");
 	getch();    //holds the screen
 	a=1;
@@ -40,7 +41,8 @@ void login(void)
 	else
 	{
 		printf("\n\n\n \t\t\t\t\t\t\t\t\t               [SORRY !!!!  LOGIN IS UNSUCESSFUL]\n\n");
-		printf("\t\t\t\t\t\t\t\t\t\t\t\t\t\t Trying Again.....\n");
+		printf("\t\t\t\t\t\t\t\t\t\t\t\t\t\t Trying Again.....");
+
 		sleep(2);
 		system("cls");
 

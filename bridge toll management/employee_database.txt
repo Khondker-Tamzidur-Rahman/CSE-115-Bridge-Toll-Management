@@ -1,0 +1,19 @@
+Name:-Tamzid
+Father's Name:-ABCD
+Mother's Name:-EFGH
+Phone no:123456789
+EmailTamzid@gmail.com
+Age 21
+Name:-Navid
+Father's Name:-abcd
+Mother's Name:-efgh
+Phone no:987654321
+Emailnavid@gmail.com
+Age 20
+Name:-Eqra
+Father's Name:-abc
+Mother's Name:-def
+Phone no:123456789
+Emaileqra@gmail.com
+Age20
+ 

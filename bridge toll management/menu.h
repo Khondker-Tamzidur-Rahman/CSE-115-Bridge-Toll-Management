@@ -179,7 +179,7 @@ printf("\t\t\t\t\t\t\t\t\t\tToday's Total Toll Money Collected = %.2lf Tk\n\n\n"
 
 
 
-printf("\n\t\t\t\t\t\t\t\t\t!!! THANKS FOR USING TOLL MANAGEMENT SOFTWARE, HOPE YOU HAVE A GREAT DAY !!!\n\n");
+printf("\n\t\t\t\t\t\t\t\t!!! THANKS FOR USING TOLL MANAGEMENT SOFTWARE, HOPE YOU HAVE A GREAT DAY !!!\n\n");
 
 
 

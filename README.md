@@ -21,12 +21,12 @@ Topics that need to be covered:
 - [X] Condition
 - [X] Loop
 - [X] Nested loop
-- [ ] Pointer
+- [X] Pointer
 - [X] Array
 - [X] String
 - [ ] Recursion
-- [ ] Structure
-- [ ] File
+- [x] Structure
+- [X] File
 <h2>How to run this project</h2>
 To run this project, user has to download the project and open it in code blocks and compile the main.c file. To see the integration of picture and data used, the directory has to be replaced appropriately where necessary. 
 
